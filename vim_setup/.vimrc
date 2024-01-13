@@ -1,0 +1,11 @@
+syntax on
+set nocompatible
+set tabstop=4
+set shiftwidth=4
+set softtabstop=4
+set autoindent
+set termguicolors
+set number
+set laststatus=2
+set mouse=a
+colorscheme slate
