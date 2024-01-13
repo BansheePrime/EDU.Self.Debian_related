@@ -1,0 +1,15 @@
+---
+- hosts: all
+  become: yes
+  tasks:
+    - name: Update apt cache and install X11
+      apt:
+        name: "{{ item }}"
+        update_cache: yes
+      loop:
+        - xorg
+        - xserver-xorg
+        - libpangocairo-1.0-0
+        - python3-xcffib
+        - python3-cffi
+        - python3-cairocffi
