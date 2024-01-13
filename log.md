@@ -1,11 +1,9 @@
-## Updating sources list https://wiki.debian.org/SourcesList
-./sources-list_update/sources.list
-sudo cp -f /etc/apt/sources.list
+## Ping by hands
+ansible all -m ping -i inventory.yaml
+//* ansible subject -m ping -i inventory.yaml
 
-## Install curl wget git vim
-./install_few_apps/run_me.sh
+## Check with playbook
+ansible-playbook -i inventory.yaml playbook.yaml
 
-## Install bspwm
-#### https://github.com/drewgrif/bookworm-scripts/blob/main/installer.sh
-#### https://wiki.archlinux.org/title/bspwm
-#### https://github.com/polybar/polybar?tab=readme-ov-file#installation
+## Check for apps
+ansible-playbook -i inventory.yaml playbook-01.yaml -u gidra -K

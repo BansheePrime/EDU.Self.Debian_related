@@ -1,0 +1,14 @@
+---
+- hosts: all
+  become: yes
+  tasks:
+    - name: Update apt cache and make sure curl, wget, unzip, git and vim is installed
+      apt:
+        name: "{{ item }}"
+        update_cache: yes
+      loop:
+        - curl
+        - wget
+        - unzip
+        - git
+        - vim
