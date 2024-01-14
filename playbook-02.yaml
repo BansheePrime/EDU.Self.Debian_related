@@ -1,6 +1,6 @@
 ---
 - hosts: all
-  tasks:
+  tasks: 
     - name: Copy file 
       ansible.builtin.copy:
         src: ./vim_setup/.vimrc

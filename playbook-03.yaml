@@ -9,7 +9,10 @@
       loop:
         - xorg
         - xserver-xorg
+        - libxkbcommon-dev
         - libpangocairo-1.0-0
         - python3-xcffib
         - python3-cffi
         - python3-cairocffi
+        - python3-venv
+        - python3-pip

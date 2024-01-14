@@ -10,5 +10,7 @@
         - curl
         - wget
         - unzip
+        - rsync
         - git
         - vim
+        
