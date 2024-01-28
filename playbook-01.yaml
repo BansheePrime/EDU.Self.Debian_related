@@ -13,4 +13,5 @@
         - rsync
         - git
         - vim
+        - tmux
         
