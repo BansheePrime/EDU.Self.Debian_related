@@ -33,7 +33,11 @@ wget --no-check-certificate --content-disposition {INSER file location here} ~/
 curl -LJO {INSER file location here}
 
 ### connect to container
-
 docker exec -it {container name} bash
+
+#### node.js case
 docker exec -it --user admin gidra-nodejs bash
+#### python case
 docker exec -it --user admin gidra-python bash
+#### textual case
+docker exec -it --user dev developer bash
