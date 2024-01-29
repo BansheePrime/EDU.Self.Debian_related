@@ -28,8 +28,8 @@ sudo vim /etc/passwd
 
 ### download vimrc file by method of your choice
 
-wget --no-check-certificate --content-disposition {INSER file location here} ~/
-``or``
+wget --no-check-certificate --content-disposition {INSER file location here} ~/  
+``or``  q
 curl -LJO {INSER file location here}
 
 ### connect to container
