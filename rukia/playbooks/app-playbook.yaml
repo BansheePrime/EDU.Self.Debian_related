@@ -1,12 +1,11 @@
 ---
 - hosts: all
-  become: yes
+  become: true
   tasks:
     - name: Update apt cache and make sure curl, wget, unzip, git and vim is installed
       apt:
         name: "{{ item }}"
         update_cache: yes
-		cache_valid_time: 3600
       loop:
         - curl
         - wget
@@ -14,5 +13,4 @@
         - rsync
         - git
         - vim
-        - tmux
-        
+        - tmux   
