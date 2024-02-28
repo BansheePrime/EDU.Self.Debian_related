@@ -1,0 +1,75 @@
+84 Chapter 3 ■ Scripting, Containers, and Automation (Domain 3.0)
+1. You are writing a shell script using Bash and need to print the contents of a variable. Which 
+of the following commands can be used to do so?
+A. echo
+B. lf
+C. sp
+D. varpt
+2. Which of the following packages provides orchestration for Linux in an agentless manner?
+A. Ansible
+B. Puppet
+C. Automat
+D. vid
+3. Which of the following commands can be used to execute a command with a customized 
+environment?
+A. set
+B. env
+C. run
+D. crun
+4. Which of the following commands, when used with git, retrieves the latest objects from 
+a repository and attempts to incorporate those changes into the local working copy of the 
+repository?
+A. fetch
+B. pull
+C. retr
+D. get
+5. Which of the following best describes the concept of infrastructure as code?
+A. The management of switches and routers using compiled programs
+B. The management of servers and other systems using scripting, source code management, 
+and automation
+C. The deployment of hardware using Agile methodologies
+D. Planning for bugs in infrastructure code and allowing time to fix them
+6. Which of the following commands changes a file called script.sh, which is located in your 
+home directory, such that it can be executed by the owner of the file and no one else?
+A. chmod 700 ~/script.sh
+B. chown +x /script.sh
+C. chmod ~/script.sh +x
+D. chmod 777 /home/script.sh
+Chapter 3 ■ Scripting, Containers, and Automation (Domain 3.0)  85
+7. Which command can be used to add functions and variables to the current shell?
+A. source
+B. echo
+C. en
+D. src
+8. Which of the following is the correct method for invoking the Bash shell for a script, typi-
+cally found as the first line of the script?
+A. #!/BASH
+B. #!bash
+C. #!/bash
+D. #!/bin/bash
+9. You need to send output from a command to a log file. Overwriting the contents of the log 
+file is acceptable. Which of the following characters is used to redirect output in such a way 
+as to fulfill this scenario?
+A. |
+B. <
+C. >
+D. &
+10. You need to create a new empty git repository called repo. Which of the following sequences 
+accomplishes this task?
+A. mkdir repo; cd repo; git init - - bare
+B. mkdir repo; git init repo/
+C. git init repo –md
+D. git create repo/
+11. Which of the following terms is used in orchestration and automation scenarios to refer to 
+the collection of devices being managed?
+A. Device collection
+B. Inventory
+C. Machines
+D. UsableObjects
+12. You need to print output from a Bash script such that single quotes appear in the outputted 
+string. Which character should be used as an escape sequence in order to get the single quotes 
+into the output?
+A. /
+B. '
+C. ?
+D. \
