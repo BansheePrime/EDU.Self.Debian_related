@@ -1,3 +1,4 @@
+node_modules/
 *.pdf
 .vagrant/
 # Byte-compiled / optimized / DLL files
