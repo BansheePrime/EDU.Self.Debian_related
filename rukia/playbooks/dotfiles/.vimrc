@@ -9,3 +9,4 @@ set termguicolors
 set laststatus=2
 set mouse=a
 colorscheme slate
+
